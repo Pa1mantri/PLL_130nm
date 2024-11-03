@@ -11,3 +11,6 @@ D-flipflop based phase frequency detector. This design uses two D-flipflops, an 
 ![Screenshot 2024-11-03 110908](https://github.com/user-attachments/assets/512338ba-d237-4b74-8432-64f4dc7bd4b2)
 
 ![Screenshot 2024-11-03 111055](https://github.com/user-attachments/assets/7ce21966-6b3f-49c1-9661-a9aff7592b21)
+
+# Circuit Design of a Charge Pump
+
