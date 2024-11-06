@@ -8,6 +8,10 @@ This PLL design using sky130nm PDK works at supply voltage of 1.8v. The design i
 # Cirucit Design of a Phase Frequency Detector
 D-flipflop based phase frequency detector. This design uses two D-flipflops, an AND gate and an inverter. A and B pulse signals are given as inputs. These two signals are being conpared in phase and frequency. If A leads B, output QA transistions high, while QB transistions low. Similarly, when B leads A, QB transitions high and QA transitions low. If both signals are in phase, neither QA nor QB transitions. When both QA and QB are high, the reset logic through the and and inverter gate resets both the filpflops.
 
+`` .lib /home/ttuser/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt``  It is a library format file. It includes silicon devices models for several process corners.
+
+`` .inlcude /home/ttuser/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice`` It is a spice netlist containing the definition of the subcircuits of all digital gates.
+
 ![Screenshot 2024-11-03 110908](https://github.com/user-attachments/assets/512338ba-d237-4b74-8432-64f4dc7bd4b2)
 
 ![Screenshot 2024-11-03 111055](https://github.com/user-attachments/assets/7ce21966-6b3f-49c1-9661-a9aff7592b21)
