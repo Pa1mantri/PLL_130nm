@@ -14,7 +14,22 @@ D-flipflop based phase frequency detector. This design uses two D-flipflops, an 
 
 ![Screenshot 2024-11-03 110908](https://github.com/user-attachments/assets/512338ba-d237-4b74-8432-64f4dc7bd4b2)
 
+The disadvantage of using a DFF-based PDF is the dead zone. Every flip-flop has a delay associated with it, which makes it difficult for the PFD to detect any phase or frequency difference between the two signals if the phase or frequency difference is less than the flip-flop delay.
+
 ![Screenshot 2024-11-03 111055](https://github.com/user-attachments/assets/7ce21966-6b3f-49c1-9661-a9aff7592b21)
 
 # Circuit Design of a Charge Pump
+
+![Screenshot 2024-11-08 223318](https://github.com/user-attachments/assets/2fa3e3ca-8b3a-43ee-ae44-25cdcfd09d9e)
+
+M1,M2,M3 and M4 transistors are part of Bias network. M6 and M7 acts as switches. M5 and M8 acts as Current Source and sink. ``cp_bisas`` voltage sets the reference current to be used by the M5 and M8 transistors.
+
+
+**Charge Pump with Loop filter**
+![Screenshot 2024-11-08 223712](https://github.com/user-attachments/assets/c67b582f-d444-457a-a232-5fc07acc21dc)
+
+Loop filter consists of resistor in series with a capacitor and a parallel capacitor.
+
+**Simulation of charge pump with loop filter** 
+![Screenshot 2024-11-08 223814](https://github.com/user-attachments/assets/505cdd3e-3e1c-4a73-a610-1298ae903643)
 
