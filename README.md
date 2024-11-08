@@ -38,3 +38,6 @@ A ring oscillator Voltage-Controlled Oscillator (VCO) consists of odd number of 
 
 ![Screenshot 2024-11-08 225957](https://github.com/user-attachments/assets/7a981232-fdbe-42e9-afbc-702d08c31964)
 
+# Circuit Design of a Frequency Divider 
+
+![Screenshot 2024-11-08 231757](https://github.com/user-attachments/assets/558e448e-6b21-435c-91b3-0f598c1cb8fe)
