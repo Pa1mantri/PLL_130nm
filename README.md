@@ -1,5 +1,5 @@
 # On chip PLL
-This project simulates the designed on chip PLL to determine it's performance characteristics pre-layout.
+This project simulates the on chip PLL blocks to determine it's performance characteristics pre-layout.
 
 # Phase Locked Loop
 Phase-Locked Loops (PLLs) are critical components in modern electronic systems, widely utilized for frequency synthesis, clock recovery, and signal modulation. Their ability to maintain a stable output frequency that is phase-locked to a reference signal makes them indispensable in applications ranging from telecommunications to consumer electronics.
