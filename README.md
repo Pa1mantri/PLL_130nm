@@ -24,7 +24,6 @@ The disadvantage of using a DFF-based PDF is the dead zone. Every flip-flop has 
 
 M1,M2,M3 and M4 transistors are part of Bias network. M6 and M7 acts as switches. M5 and M8 acts as Current Source and sink. ``cp_bisas`` voltage sets the reference current to be used by the M5 and M8 transistors.
 
-
 **Charge Pump with Loop filter**
 ![Screenshot 2024-11-08 223712](https://github.com/user-attachments/assets/c67b582f-d444-457a-a232-5fc07acc21dc)
 
@@ -32,4 +31,8 @@ Loop filter consists of resistor in series with a capacitor and a parallel capac
 
 **Simulation of charge pump with loop filter** 
 ![Screenshot 2024-11-08 223814](https://github.com/user-attachments/assets/505cdd3e-3e1c-4a73-a610-1298ae903643)
+
+# Circuit Design of a VCO
+
+
 
