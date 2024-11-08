@@ -36,3 +36,5 @@ Loop filter consists of resistor in series with a capacitor and a parallel capac
 
 A ring oscillator Voltage-Controlled Oscillator (VCO) consists of odd number of inverting stages connected in a ring configuration, generating an oscillating waveform. By controlling the bias voltage of the transistors within the stages, the oscillation frequency can be adjusted. This VCO serves as the controlled oscillator in the PLL, with its frequency locked to the reference signal through the feedback loop.
 
+![Screenshot 2024-11-08 225957](https://github.com/user-attachments/assets/7a981232-fdbe-42e9-afbc-702d08c31964)
+
