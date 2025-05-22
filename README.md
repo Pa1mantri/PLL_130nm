@@ -49,4 +49,3 @@ A ring oscillator Voltage-Controlled Oscillator (VCO) consists of odd number of 
 ![Screenshot 2024-11-08 231757](https://github.com/user-attachments/assets/558e448e-6b21-435c-91b3-0f598c1cb8fe)
 
 # Certificate
-[NIT J Certificate of Completion (2) (1)-9.pdf](https://github.com/user-attachments/files/20392517/NIT.J.Certificate.of.Completion.2.1.-9.pdf)
